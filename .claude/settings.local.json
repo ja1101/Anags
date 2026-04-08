@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv anagrams.ts src/index.ts)",
+      "Bash(mv wordlist.txt data/)",
+      "Bash(mv anags.txt data/)",
+      "Bash(npm run:*)",
+      "Bash(npm start:*)",
+      "Bash(npm test:*)"
+    ]
+  }
+}

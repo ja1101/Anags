@@ -1,0 +1,5 @@
+dist/
+tests/
+data/
+coverage/
+node_modules/
