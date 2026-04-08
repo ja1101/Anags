@@ -75,4 +75,4 @@ This runs the Jest test suite and generates coverage reports.
 
 The application reads a list of words from a text file, groups them into anagrams, and writes the results to another file. Words are considered anagrams if they contain the same letters in the same frequency, ignoring case.
 
-For example: "listen", "silent", and "enlist" are anagrams of each other.
+For example: "listen", "silent", and "enlist" are anagrams of each other. Also "pal" and "lap".
