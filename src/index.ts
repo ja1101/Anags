@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { AnagramGenerator } from './anagramGenerator';
 import { FileHandler } from './fileHandler';
 import * as path from 'path';
