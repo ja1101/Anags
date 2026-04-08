@@ -9,7 +9,7 @@ import * as path from 'path';
  * @param inputPath Path to input word list file
  * @param outputPath Path to output anagrams file
  */
-async function main(inputPath: string = './data/wordlist.txt', outputPath: string = './data/anags.txt'): Promise<void> {
+async function main(inputPath: string = './data/wordlist.txt', outputPath: string = './data/anagrams.txt'): Promise<void> {
   try {
     // Resolve paths relative to the project root
     const resolvedInputPath = path.resolve(inputPath);
