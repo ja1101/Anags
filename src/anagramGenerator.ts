@@ -27,7 +27,7 @@ export class AnagramGenerator {
       }
     }
 
-    // Filter out groups with only one word (not anagrams)
+    // Filter out groups with only one word (not anagrams!) and format the result
     const anagramGroups: AnagramGroup[] = Object.entries(groups)
       .filter(([_, words]) => words.length > 1)
       .map(([key, words]) => ({ key, words }));
